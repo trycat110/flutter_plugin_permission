@@ -13,8 +13,8 @@ For help getting started with Flutter, view our online
 
 For help on editing plugin code, view the [documentation](https://flutter.io/platform-plugins/#edit-code).
 
-Make sure you add the needed permissions to your Android Manifest Permission and Info.plist.
-##注册清单文件Manifest注册需要的权限，如下：
+## Make sure you add the needed permissions to your Android Manifest Permission and Info.plist.
+## 注册清单文件Manifest注册需要的权限，如下：
 ```xml
 <uses-permission android:name="android.permission.RECORD_AUDIO" />
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
