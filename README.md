@@ -1,7 +1,7 @@
 # flutter_plugin_permission With Android
 # 居于Android客户端的扩展
 **原作者如下：**
-###Base on [Ethras's flutter_simple_permissions](https://github.com/Ethras/flutter_simple_permissions)
+### Base on [Ethras's flutter_simple_permissions](https://github.com/Ethras/flutter_simple_permissions)
 
 
 A new Flutter Permission request plugin By Android.
@@ -19,7 +19,7 @@ Make sure you add the needed permissions to your Android Manifest Permission and
 <uses-permission android:name="android.permission.RECORD_AUDIO" />
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 ```
-##方法：
+## 方法：
 ```dart
 /// 检查是否有权限
 static Future<bool> checkPermission(String permission);
@@ -39,7 +39,7 @@ static Future<bool> openSettings();
 static Future<PermissionStatus> getPermissionStatus(String permission);
 
 ```
-##状态
+## 状态
 ```dart
 /// android 主要是2,3,4
 /// denied 未授权
@@ -48,6 +48,6 @@ static Future<PermissionStatus> getPermissionStatus(String permission);
 enum PermissionStatus {notDetermined, restricted, denied, authorized, notShowView}
 ```
 
-###具体使用请参考Demo
+### 具体使用请参考Demo
 
 
